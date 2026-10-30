@@ -1,0 +1,11 @@
+# Giant bee: a fast, weak sting.
+bee:
+  name: Giant Bee
+  health: 120.0
+  walk_speed: 2.8
+  run_speed: 5.8
+  attack:
+    damage: 7.0
+    reach: 1.6
+    interval: 0.9
+    windup: 0.25

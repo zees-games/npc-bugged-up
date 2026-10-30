@@ -1,0 +1,13 @@
+# Giant wasp: fragile and quick; its sting poisons (the host's `bug_status`).
+wasp:
+  name: Giant Wasp
+  health: 90.0
+  walk_speed: 3.2
+  run_speed: 6.8
+  attack:
+    damage: 9.0
+    reach: 1.9
+    interval: 1.3
+    windup: 0.3
+    status: poison
+    status_seconds: 4.0

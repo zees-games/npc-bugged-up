@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/npc_bugged_up/runtime/bug_body.gd" id="1"]
+
+[node name="Bug" type="CharacterBody3D"]
+script = ExtResource("1")

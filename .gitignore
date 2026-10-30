@@ -1,0 +1,26 @@
+# Godot 4
+.godot/
+.import/
+
+# The dot-* addons are separate repositories and are linked in, never committed.
+# bootstrap.sh derives this project's dependencies from the lines below.
+/addons/dot_core
+/addons/dot_profile
+/addons/dot_npc
+/addons/dot_npc_ai
+# Test only: the suite and the gallery link nothing more.
+
+# Exports
+build/
+export.cfg
+export_presets.cfg
+*.translation
+
+# Screenshots are evidence for a review, not assets.
+/screenshots/
+
+.DS_Store
+Thumbs.db
+.vscode/
+__pycache__/
+art-src/reference/

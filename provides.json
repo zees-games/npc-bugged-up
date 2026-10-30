@@ -1,0 +1,9 @@
+{
+  "id": "npc_bugged_up",
+  "name": "Bugged Up",
+  "games": ["*"],
+  "needs": ["dot_core", "dot_npc", "dot_npc_ai"],
+  "spawn_provider": "addons/npc_bugged_up/spawn_provider.gd",
+  "config_dir": "cfg/addons/npc_bugged_up",
+  "npcs": ["bug_ant", "bug_wasp", "bug_bee"]
+}

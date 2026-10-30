@@ -1,0 +1,26 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+
+config/name="npc-bugged-up"
+config/description="Bugged Up: human-sized ants, wasps and bees that hunt players. An NPC pack for Zombie Zone and any other Dot game."
+run/main_scene="res://examples/bug_gallery.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/npc_bugged_up/plugin.cfg")
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+anti_aliasing/quality/msaa_3d=1

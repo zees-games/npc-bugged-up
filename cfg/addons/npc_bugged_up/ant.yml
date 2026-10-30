@@ -1,0 +1,12 @@
+# Soldier ant. Every key is optional: delete one and the built-in default applies.
+# Override one value: --npc_bugged_up.ant.health=300
+ant:
+  name: Soldier Ant
+  health: 160.0
+  walk_speed: 2.6
+  run_speed: 5.4
+  attack:
+    damage: 14.0
+    reach: 1.7
+    interval: 1.1
+    windup: 0.35

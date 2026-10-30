@@ -1,0 +1,4 @@
+[
+  {"paths": ["addons/npc_bugged_up/models", "addons/npc_bugged_up/icons"], "licence": "CC0-1.0", "author": "Christian Deacon", "url": "https://github.com/zees-games/npc-bugged-up"},
+  {"paths": [""], "licence": "MIT", "author": "Christian Deacon", "url": "https://github.com/zees-games/npc-bugged-up"}
+]
