@@ -1,9 +1,11 @@
 {
-  "id": "npc_bugged_up",
-  "name": "Bugged Up",
-  "games": ["*"],
-  "needs": ["dot_core", "dot_npc", "dot_npc_ai"],
-  "spawn_provider": "addons/npc_bugged_up/spawn_provider.gd",
-  "config_dir": "cfg/addons/npc_bugged_up",
-  "npcs": ["bug_ant", "bug_wasp", "bug_bee"]
+    "schema": 1,
+    "title": "NPCs - Bugged Up",
+    "kinds": ["npc"],
+    "games": "*",
+    "entries": [
+        {"kind": "npc", "id": "bug_ant", "name": "Soldier Ant", "scene": "addons/npc_bugged_up/models/ant.glb", "thumbnail": "addons/npc_bugged_up/icons/ant.png", "tags": ["insect"], "meta": {"spawn_provider": "addons/npc_bugged_up/spawn_provider.gd"}},
+        {"kind": "npc", "id": "bug_wasp", "name": "Giant Wasp", "scene": "addons/npc_bugged_up/models/wasp.glb", "thumbnail": "addons/npc_bugged_up/icons/wasp.png", "tags": ["insect"], "meta": {"spawn_provider": "addons/npc_bugged_up/spawn_provider.gd"}},
+        {"kind": "npc", "id": "bug_bee", "name": "Giant Bee", "scene": "addons/npc_bugged_up/models/bee.glb", "thumbnail": "addons/npc_bugged_up/icons/bee.png", "tags": ["insect"], "meta": {"spawn_provider": "addons/npc_bugged_up/spawn_provider.gd"}}
+    ]
 }
