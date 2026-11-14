@@ -1,5 +1,3 @@
-# npc-bugged-up
-
 A pack of human-sized insects for Godot 4: a soldier ant (bite), a giant wasp (poisoning sting) and a giant bee (fast sting). Built on dot-npc and dot-npc-ai, delivered as a dot-cloud pack, and spawnable from any game's spawn menu.
 
 ## Use
