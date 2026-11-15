@@ -4,7 +4,7 @@ config_version=5
 [application]
 
 config/name="npc-bugged-up"
-config/description="Bugged Up: human-sized ants, wasps and bees that hunt players. An NPC pack for Zombie Zone and any other Dot game."
+config/description="Bugged Up: human-sized ants, wasps and bees that hunt players. An NPC pack for Zombie Zone and any other Gamespice game."
 run/main_scene="res://examples/bug_gallery.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
