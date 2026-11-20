@@ -1,8 +1,8 @@
-Three human-sized insects for GameSpice games: a soldier ant (a hard bite), a giant wasp (a poisoning sting) and a giant bee (a fast sting). Built on dot-npc and dot-npc-ai, delivered as a pack, and spawnable from any game's spawn menu. Every number is a yml setting.
+Three human-sized insects for [**GameSpice**](https://gamespice.net) games: a soldier ant (a hard bite), a giant wasp (a poisoning sting) and a giant bee (a fast sting). Built on dot-npc and dot-npc-ai, delivered as a pack, and spawnable from any game's spawn menu. Every number is a yml setting.
 
 ### In GameSpice, Fatal Contact, Playlot and Zombie Zone
 
-- **GameSpice:** the pack is published to the Workshop as `npc-bugged-up`. Add it to a server's or game's pack list and the bugs appear in the spawn menu (NPC ids `bug_ant`, `bug_wasp`, `bug_bee`); players get it with the server's pack overlay, so there is nothing to install.
+- GameSpice:** the pack is published to the Workshop as `npc-bugged-up`. Add it to a server's or game's pack list and the bugs appear in the spawn menu (NPC ids `bug_ant`, `bug_wasp`, `bug_bee`); players get it with the server's pack overlay, so there is nothing to install.
 - **Zombie Zone:** link the pack into `addons/`. The game's pack scan (`game/zz_packs.gd`) reads `spawn_provider.gd` and adds the bugs to the wave catalogue.
 - **Playlot:** link or install the pack and the spawn menu lists the bugs (`game/playlot_addons.gd` reads `spawn_provider.gd`). Set the `bug_host` meta (see [Use](#use)) to have their hits land on players.
 - **Fatal Contact:** FC's spawner reads only its own three monsters (`game/fc_npcs.gd`) and loads pack weapons, not pack NPCs, so this pack has no effect there yet.
