@@ -24,3 +24,5 @@ items:
     blurb: >-
       Cheap, quick and relentless: the weakest sting on the shortest interval. Spawn bees in numbers.
     poses: {attack: "Sting: the abdomen curls forward"}
+banner_name: Bugged Up
+banner_style: raw
