@@ -1,0 +1,150 @@
+{
+ "ids": [
+  "ant",
+  "wasp",
+  "bee"
+ ],
+ "items": {
+  "ant": {
+   "name": "Soldier Ant",
+   "npc_id": "bug_ant",
+   "poses": [
+    "idle",
+    "attack"
+   ],
+   "rows": [
+    [
+     "Health",
+     "160"
+    ],
+    [
+     "Speed",
+     "2.6 m/s walking, 5.4 m/s running"
+    ],
+    [
+     "Bite",
+     "14 damage, 1.7 m reach, every 1.1 s (0.35 s windup)"
+    ],
+    [
+     "Sight",
+     "28 m, 160 deg cone"
+    ],
+    [
+     "Hearing",
+     "22 m"
+    ],
+    [
+     "Weight class",
+     "Normal"
+    ],
+    [
+     "Spawn cost",
+     "2"
+    ],
+    [
+     "Body",
+     "1.25 m tall, 0.55 m radius"
+    ]
+   ],
+   "summary": {
+    "Damage": "14 bite",
+    "Health": "160",
+    "Weight": "Normal"
+   }
+  },
+  "bee": {
+   "name": "Giant Bee",
+   "npc_id": "bug_bee",
+   "poses": [
+    "idle",
+    "attack"
+   ],
+   "rows": [
+    [
+     "Health",
+     "120"
+    ],
+    [
+     "Speed",
+     "2.8 m/s walking, 5.8 m/s running"
+    ],
+    [
+     "Sting",
+     "7 damage, 1.6 m reach, every 0.9 s (0.25 s windup)"
+    ],
+    [
+     "Sight",
+     "30 m, 180 deg cone"
+    ],
+    [
+     "Hearing",
+     "24 m"
+    ],
+    [
+     "Weight class",
+     "Normal"
+    ],
+    [
+     "Spawn cost",
+     "2"
+    ],
+    [
+     "Body",
+     "1.2 m tall, 0.55 m radius"
+    ]
+   ],
+   "summary": {
+    "Damage": "7 sting",
+    "Health": "120",
+    "Weight": "Normal"
+   }
+  },
+  "wasp": {
+   "name": "Giant Wasp",
+   "npc_id": "bug_wasp",
+   "poses": [
+    "idle",
+    "attack"
+   ],
+   "rows": [
+    [
+     "Health",
+     "90"
+    ],
+    [
+     "Speed",
+     "3.2 m/s walking, 6.8 m/s running"
+    ],
+    [
+     "Sting",
+     "9 damage, 1.9 m reach, every 1.3 s (0.3 s windup); poison for 4 s"
+    ],
+    [
+     "Sight",
+     "34 m, 180 deg cone"
+    ],
+    [
+     "Hearing",
+     "26 m"
+    ],
+    [
+     "Weight class",
+     "Normal"
+    ],
+    [
+     "Spawn cost",
+     "3"
+    ],
+    [
+     "Body",
+     "1.2 m tall, 0.5 m radius"
+    ]
+   ],
+   "summary": {
+    "Damage": "9 sting + poison",
+    "Health": "90",
+    "Weight": "Normal"
+   }
+  }
+ }
+}

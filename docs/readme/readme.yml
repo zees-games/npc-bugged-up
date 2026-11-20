@@ -1,0 +1,26 @@
+# Words for the README's generated gallery (tools/gen_readme.sh). Numbers never go here: they come from the pack's
+# config through tools/readme_adapter.gd into docs/readme/profiles.json.
+heading: The bugs
+noun: Bug
+columns: [Role, Health, Damage]
+order: [ant, wasp, bee]
+summary_before: "## Use"
+items_before: "## Tests and pictures"
+items:
+  ant:
+    role: Grunt
+    blurb: >-
+      The toughest of the three: an armoured soldier ant that walks straight in and bites hard. Slow to kill,
+      easy to outrun.
+    poses: {attack: "Bite: the head dips and the mandibles close"}
+  wasp:
+    role: Poisoner
+    blurb: >-
+      The fastest bug, with the longest reach. Each sting is light but poisons the target, so wasps wear a
+      player down while the ants close in.
+    poses: {attack: "Sting: the abdomen curls forward"}
+  bee:
+    role: Swarmer
+    blurb: >-
+      Cheap, quick and relentless: the weakest sting on the shortest interval. Spawn bees in numbers.
+    poses: {attack: "Sting: the abdomen curls forward"}

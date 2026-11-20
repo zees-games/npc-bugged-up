@@ -24,3 +24,6 @@ Thumbs.db
 .vscode/
 __pycache__/
 art-src/reference/
+
+# The shared README studio, copied in by tools/readme_shot.sh.
+/tools/readme_studio/
