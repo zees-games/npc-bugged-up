@@ -1,5 +1,3 @@
-# NPCs - Bugged Up
-
 Three human-sized insects for GameSpice games: a soldier ant (a hard bite), a giant wasp (a poisoning sting) and a giant bee (a fast sting). Built on dot-npc and dot-npc-ai, delivered as a pack, and spawnable from any game's spawn menu. Every number is a yml setting.
 
 ### In GameSpice, Fatal Contact, Playlot and Zombie Zone
