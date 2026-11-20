@@ -1,0 +1,4 @@
+# duplication (cross-game)
+# Baselines only shrink: scripts/<gate> --update lowers or drops entries and refuses to add.
+addons/npc_bugged_up/core/bug_runtime.gd	84
+examples/bug_selftest.gd	31
